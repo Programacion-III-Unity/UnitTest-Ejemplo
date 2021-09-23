@@ -21,7 +21,7 @@ public class PlayerTests
         yield return null;
         Assert.NotNull(player);
     }
-    /*
+    
     [UnityTest]
     public IEnumerator TestIfPlayerJumps()
     {
@@ -29,16 +29,15 @@ public class PlayerTests
 
 
         float posicionInicialY = player.transform.position.y;
+        float posicionFinalEsperadaY = posicionInicialY + 3;
 
         player.GetComponent<PlayerMovement>().Jump();
 
-        yield return null;
-        yield return null;
 
-        float posicionFinalY = player.transform.position.y;
+        yield return new WaitForSeconds(1);
 
 
-        Assert.AreNotEqual(posicionFinalY,posicionInicialY);
+        Assert.Greater(posicionFinalEsperadaY,5);
     }
- */   
+   
 }
