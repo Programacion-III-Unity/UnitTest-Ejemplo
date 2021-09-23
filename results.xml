@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.0554869">
+  <test-suite type="TestSuite" id="1008" name="New Unity Project (2)" fullname="New Unity Project (2)" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.055487" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1012" name="Assembly-CSharp-Editor.dll" fullname="C:/Users/Heavy/git/Unity/Tests/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.041311" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="12388" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1009" name="ExampleTests" fullname="ExampleTests" classname="ExampleTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.039573" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1010" name="Test" fullname="ExampleTests.Test" methodname="Test" classname="ExampleTests" runstate="Runnable" seed="568402620" result="Passed" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.020957" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1011" name="TestPlayerDamage" fullname="ExampleTests.TestPlayerDamage" methodname="TestPlayerDamage" classname="ExampleTests" runstate="Runnable" seed="910468653" result="Passed" start-time="2021-09-23 16:55:42Z" end-time="2021-09-23 16:55:42Z" duration="0.001414" asserts="0">
+          <properties />
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
