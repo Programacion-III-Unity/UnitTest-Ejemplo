@@ -26,17 +26,10 @@ public class PlayerTests
     public IEnumerator TestIfPlayerJumps()
     {
         GameObject player = GameObject.Find("SpawnedPlayer");
-
-
         float posicionInicialY = player.transform.position.y;
         float posicionFinalEsperadaY = posicionInicialY + 3;
-
         player.GetComponent<PlayerMovement>().Jump();
-
-
         yield return new WaitForSeconds(1);
-
-
         Assert.Greater(posicionFinalEsperadaY,5);
     }
    
